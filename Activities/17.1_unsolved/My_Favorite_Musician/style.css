@@ -1,0 +1,20 @@
+h1 {
+  font-family: 'Akaya Telivigala', cursive;
+  color: purple;
+}
+
+p {
+  font-family: 'Dancing Script', cursive;
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+li {
+font-family: 'Gloria Hallelujah', cursive;
+color: blue;
+}
+
+html {
+  background-color: rgba(0, 110, 255, 0.61);
+}
