@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+  "rotate"
+  "scale"
+  "translate"
+  ;
+}
+.rotate {
+  grid-area: rotate;
+  text-align: center;
+}
+.rotate img {
+  transform: rotate(35deg);
+/* Write your rotate transform here */
+}
+.scale {
+  grid-area: scale;
+  justify-content: center;
+  display: grid;
+  align-items: center;
+}
+.scaleMe {
+  transform: scale(2) scaleX(2) scaleY(2);
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  margin: 0 auto;
+  /* Write the scale transform here */
+
+}
+.translate {
+  grid-area: translate;
+  justify-content: center;
+  display: grid;
+  align-items: center;
+}
+.moveMe {
+  transform: translateX(40%) translateY(25%);
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  /* Write the translate transform here */
+}
+
+.gridChild {
+  background-color: lightgrey;
+  border: 10px solid lightblue;
+  margin: 1s0px 0px;
+}
